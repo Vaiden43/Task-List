@@ -1,0 +1,12 @@
+<h2>Task Edit</h2>
+<h5>
+Name: <input [(ngModel)]="editTask.name">
+<br/>
+Minutes to complete task: <input [(ngModel)]="editTask.minutesToComplete">
+<br/>
+Description of task: <input [(ngModel)]="editTask.Description">
+<br/>
+What items do you need to complete the task: <input [(ngModel)]="editTask.itemsNeededToDo">
+<br/>
+</h5>
+<Button (click)="saveEdit()">Save</Button>
